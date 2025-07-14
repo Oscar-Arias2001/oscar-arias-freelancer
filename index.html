@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="index, follow" />
+		<meta
+			name="description"
+			content="Personal website of software developer Oscar Arias, currently offering different kinds of software engineering solutions."
+		/>
+		<meta
+			name="keywords"
+			content="software developer, web development, Oscar Arias, programming, HTML, JavaScript"
+		/>
+		<meta name="author" content="Oscar Arias" />
+		<title>Oscar Arias | Software Developer</title>
+
+		<!-- Normalize CSS Reset -->
+		<link rel="preload" href="./css/normalize.css" as="style" />
+		<link rel="stylesheet" href="./css/normalize.css" />
+
+		<!-- Google Website Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS Styles -->
+		<link rel="preload" href="./css/styles.css" as="style" />
+		<link rel="stylesheet" href="./css/styles.css" />
+
+		<!-- Website Favicon -->
+		<link rel="icon" type="image/x-icon" href="./img/page.ico" />
+	</head>
+	<body>
+		<!-- Header Tag Starts -->
+		<header class="header">
+			<h1 class="header__title text-center">
+				<a href="./index.html" class="header__title-link"
+					>Oscar Arias <span>Freelancer</span></a
+				>
+			</h1>
+		</header>
+		<!-- Header Tag Ends -->
+
+		<!-- Navigation Bar Starts -->
+		<div class="navigation-bg bg-blue">
+			<input type="checkbox" name="button-menu" id="menu-toggle" hidden />
+
+			<!-- Hamburguer Button Icon Starts -->
+			<label
+				for="menu-toggle"
+				class="fa-duotone fa-solid fa-bars"
+				aria-label="Open Menu"
+			>
+			</label>
+			<!-- Hamburguer Button Icon Ends -->
+
+			<!-- Close Button Icon Starts -->
+			<label
+				for="menu-toggle"
+				class="fa-regular fa-rectangle-xmark"
+				aria-label="Close Menu"
+			>
+			</label>
+			<!-- Close Button Icon Ends -->
+
+			<!-- Nav Tag Starts -->
+			<nav class="main-navigation container bg-blue">
+				<a
+					href="#"
+					class="main-navigation__link main-navigation__link--active text-center fw-700"
+					>Home</a
+				>
+				<a href="#" class="main-navigation__link text-center fw-700"
+					>About Me</a
+				>
+				<a href="#" class="main-navigation__link text-center fw-700"
+					>Customers</a
+				>
+				<a href="#contact" class="main-navigation__link text-center fw-700"
+					>Contact</a
+				>
+			</nav>
+			<!-- Nav Tag Ends -->
+		</div>
+		<!-- Navigation Bar Ends -->
+
+		<!-- Hero Section Starts -->
+		<div class="hero">
+			<!-- Hero Content Starts -->
+			<section class="hero__content flex-col-center">
+				<h2 class="hero__title text-center slid-upwards-animation">
+					Web Design and Software Development
+				</h2>
+
+				<!-- Hero Location Starts -->
+				<div class="hero__location slid-upwards-animation">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="#FFC007"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						width="88"
+						height="88"
+						stroke-width="1.5"
+					>
+						<path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+						<path
+							d="M11.85 21.48a1.992 1.992 0 0 1 -1.263 -.58l-4.244 -4.243a8 8 0 1 1 13.385 -3.585"
+						></path>
+						<path d="M20 21l2 -2l-2 -2"></path>
+						<path d="M17 17l-2 2l2 2"></path>
+					</svg>
+
+					<p>Masaya, Nicaragua</p>
+				</div>
+				<!-- Hero Location Ends -->
+
+				<a
+					class="button slid-upwards-animation"
+					href="https://wa.me/+50576824820?text=Cont%C3%A1ctame%20para%20m%C3%A1s%20informaci%C3%B3n"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Contact</a
+				>
+			</section>
+			<!-- Hero Content Ends -->
+		</div>
+		<!-- Hero Section Ends -->
+
+		<!-- Main Tag Starts -->
+		<main class="main container-shadow">
+			<!-- Main Container Starts -->
+			<div class="main__container">
+				<h2 class="main__title text-center">My Services</h2>
+
+				<!-- Services Section Starts -->
+				<div class="services">
+					<!-- Service Section Starts -->
+					<section class="service flex-col-center">
+						<h3 class="service__title text-center">Web Design</h3>
+
+						<!-- Service Filter Starts -->
+						<div class="service__filter">
+							<!-- Service Icon Starts -->
+							<div class="service__icon flex-col-center">
+								<lord-icon
+									src="https://cdn.lordicon.com/pxzomajw.json"
+									trigger="hover"
+									colors="primary:#66d7ee,secondary:#ebe6ef"
+									style="width: 70px; height: 70px"
+								>
+								</lord-icon>
+							</div>
+
+							<div class="service__blur"></div>
+							<!-- Service Icon Ends -->
+						</div>
+						<!-- Service Filter Ends -->
+
+						<p class="service__description text-center">
+							Modern designs adapted to your needs. Creating attractive websites
+							that work on all devices. Your online presence starts with a good
+							first impression.
+						</p>
+					</section>
+					<!-- Service Section Ends -->
+
+					<!-- Service Section Starts -->
+					<section class="service flex-col-center">
+						<h3 class="service__title text-center">Mobile Apps</h3>
+
+						<!-- Service Filter Starts -->
+						<div class="service__filter">
+							<!-- Service Icon Starts -->
+							<div class="service__icon flex-col-center">
+								<lord-icon
+									src="https://cdn.lordicon.com/iuqyhlid.json"
+									trigger="hover"
+									colors="primary:#ffffff,secondary:#545454"
+									style="width: 70px; height: 70px"
+								>
+								</lord-icon>
+							</div>
+
+							<div class="service__blur"></div>
+							<!-- Service Icon Ends -->
+						</div>
+						<!-- Service Filter Ends -->
+
+						<p class="service__description text-center">
+							Development of intuitive apps for Android & iOS. Optimization of
+							every detail for a seamless experience. Take your idea to the next
+							level with a custom app.
+						</p>
+					</section>
+					<!-- Service Section Ends -->
+
+					<!-- Service Section Starts -->
+					<section class="service flex-col-center">
+						<h3 class="service__title text-center">E-Commerce</h3>
+
+						<!-- Service Filter Starts -->
+						<div class="service__filter">
+							<!-- Service Icon Starts -->
+							<div class="service__icon flex-col-center">
+								<lord-icon
+									src="https://cdn.lordicon.com/vqkaxtlm.json"
+									trigger="hover"
+									colors="primary:#f4dc9c,secondary:#f49cc8,tertiary:#f24c00,quaternary:#3a3347,quinary:#918d10,senary:#66eece,septenary:#66ee78,octonary:#2516c7"
+									style="width: 70px; height: 70px"
+								>
+								</lord-icon>
+							</div>
+
+							<div class="service__blur"></div>
+							<!-- Service Icon Ends -->
+						</div>
+						<!-- Service Filter Ends -->
+
+						<p class="service__description text-center">
+							Easy to use e-commerce design and development. Integration with
+							payment, shipping and management. Turn visits into sales with a
+							professional store.
+						</p>
+					</section>
+					<!-- Service Section Ends -->
+				</div>
+				<!-- Services Section Ends -->
+
+				<!-- Contact Section Starts -->
+				<section id="contact">
+					<h2 class="contact__title text-center">Contact Me</h2>
+
+					<!-- WebSite Form Starts  -->
+					<form
+						class="form"
+						name="contact-form"
+						action="/send"
+						method="get"
+						autocomplete="on"
+						accept-charset="UTF-8"
+					>
+						<!-- Fieldset Tag Starts -->
+						<fieldset class="form__fieldset">
+							<legend class="form__legend text-center fw-700">
+								Get in touch with me through this form
+							</legend>
+
+							<!-- Fields Container Starts -->
+							<div class="form__fields">
+								<div class="field">
+									<label
+										class="field__label fw-700"
+										for="fullname"
+										class="f-weight"
+										>Name</label
+									>
+									<input
+										class="field__input"
+										id="fullname"
+										type="text"
+										name="fullname"
+										autocomplete="name"
+										placeholder="Full Name"
+										spellcheck="true"
+										pattern="^[A-Za-zÀ-ÿ\s\'\-]{2,40}$"
+										minlength="2"
+										maxlength="40"
+										title="Please the field must not contain numbers and the valid amount of characters is between 2 and 40."
+										required
+									/>
+								</div>
+
+								<div class="field">
+									<label
+										class="field__label fw-700"
+										for="phonenumber"
+										class="f-weight"
+										>Phone</label
+									>
+									<input
+										class="field__input"
+										id="phonenumber"
+										type="tel"
+										name="phonenumber"
+										pattern="^\+?[0-9\s\-\(\)]{7,20}$"
+										minlength="7"
+										maxlength="20"
+										autocomplete="tel"
+										placeholder="Phone Number"
+										title="Please enter a valid phone number. Only digits, spaces, hyphens, parentheses and an optional '+' at the beginning are allowed."
+										required
+									/>
+								</div>
+
+								<div class="field">
+									<label
+										class="field__label fw-700"
+										for="address"
+										class="f-weight"
+										>Address</label
+									>
+									<input
+										class="field__input"
+										id="address"
+										type="text"
+										name="address"
+										autocomplete="street-address"
+										placeholder="Street Address"
+										pattern="^[0-9A-Za-zÀ-ÿ\s\/\.\-]{2,60}$"
+										minlength="2"
+										maxlength="60"
+										required
+									/>
+								</div>
+
+								<div class="field">
+									<label
+										class="field__label fw-700"
+										for="email"
+										class="f-weight"
+										>Email</label
+									>
+									<input
+										class="field__input"
+										id="email"
+										type="email"
+										name="email"
+										pattern="^[a-zA-Z0-9\.\_\%\+\-]+@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,}$"
+										autocomplete="email"
+										placeholder="Your Email"
+										required
+									/>
+								</div>
+
+								<div class="field">
+									<label
+										class="field__label fw-700"
+										for="message"
+										class="f-weight"
+										>How Can I Help U?</label
+									>
+									<textarea
+										class="field__input field__input--height"
+										name="message"
+										id="message"
+										placeholder="Leave a message..."
+										required
+									></textarea>
+								</div>
+							</div>
+							<!-- Fields Container Ends -->
+
+							<!-- Form Submit Starts -->
+							<div class="form__submit">
+								<button class="form__button w-full button" type="submit">
+									Send
+								</button>
+							</div>
+							<!-- Form Submit Ends -->
+						</fieldset>
+						<!-- Fieldset Tag Ends -->
+					</form>
+					<!-- WebSite Form Ends  -->
+				</section>
+				<!-- Contact Section Ends -->
+			</div>
+			<!-- Main Container Ends -->
+		</main>
+		<!-- Main Tag Ends -->
+
+		<!-- Footer Section Starts -->
+		<footer class="footer">
+			<p class="footer__paragraph text-center fw-700">
+				Copyright &copy; Crafted by
+				<a
+					href="https://wa.me/+50576824820?text=Cont%C3%A1ctame%20para%20m%C3%A1s%20informaci%C3%B3n"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Oscar Arias Freelancer</a
+				>. All Rights Reserved 2023.
+			</p>
+		</footer>
+		<!-- Footer Section Ends -->
+
+		<!-- Modernizr Webp Script Starts -->
+		<script src="./scripts/modernizr.js" defer></script>
+		<!-- Modernizr Webp Script Ends -->
+
+		<!-- Font Awesome Icons Script Starts -->
+		<script
+			src="https://kit.fontawesome.com/9e24ae0db6.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<!-- Font Awesome Icons Script Ends -->
+
+		<!-- Lordicon Icons Script Starts -->
+		<script src="https://cdn.lordicon.com/lordicon.js" defer></script>
+		<!-- Lordicon Icons Script Ends -->
+	</body>
+</html>
