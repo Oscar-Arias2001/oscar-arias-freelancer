@@ -566,8 +566,9 @@ h3 {
 /** Footer Section **/
 .footer__paragraph {
 	margin-block: 1.5rem;
+	width: calc(var(--full) - 10%);
 }
 
-.footer__paragraph a {
+.footer__link {
 	color: var(--blue);
 }
