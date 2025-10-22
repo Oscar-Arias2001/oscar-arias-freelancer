@@ -6,10 +6,11 @@ Personal website of software developer Oscar Arias, currently offering different
 
 ## 📸 Preview
 
-![Header](./assets/screenshot-1.png)
-![Services](./assets/screenshot-2.png)
-![Contact](./assets/screenshot-3.png)
-![Footer](./assets/screenshot-4.png)
+![Home](./assets/screenshot-1.png)
+![About](./assets/screenshot-2.png)
+![Workflow](./assets/screenshot-3.png)
+![Services](./assets/screenshot-4.png)
+![Contact](./assets/screenshot-5.png)
 
 ---
 
