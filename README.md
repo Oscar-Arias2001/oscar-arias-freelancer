@@ -6,11 +6,10 @@ Personal website of software developer Oscar Arias, currently offering different
 
 ## 📸 Preview
 
-![Home](./assets/screenshot-1.png)
-![About](./assets/screenshot-2.png)
-![Workflow](./assets/screenshot-3.png)
-![Services](./assets/screenshot-4.png)
-![Contact](./assets/screenshot-5.png)
+![Header](./assets/screenshot-1.png)
+![Services](./assets/screenshot-2.png)
+![Contact](./assets/screenshot-3.png)
+![Footer](./assets/screenshot-4.png)
 
 ---
 
@@ -53,7 +52,6 @@ Personal website of software developer Oscar Arias, currently offering different
 - ✅ Use Of Images In WebP Format
 - ✅ Form With Pattern Validations
 - ✅ CSS Flexbox And Grid
-- ✅ Modernizr JS For WebP Images
 
 ---
 
