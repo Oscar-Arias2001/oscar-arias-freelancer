@@ -63,7 +63,7 @@ git clone https://github.com/Oscar-Arias2001/oscar-arias-freelancer.git
 cd oscar-arias-freelancer
 ```
 
-Abre `index.html` en tu navegador.
+Open `index.html` in your browser.
 
 ---
 
