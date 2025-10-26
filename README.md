@@ -76,7 +76,8 @@ Contributions are welcome. Please open an `issue` or make a `pull request`.
 ## 🧑‍💻 Author
 
 **Oscar Arias**  
-🐙 [GitHub](https://github.com/Oscar-Arias2001)
+🐙 [GitHub](https://github.com/Oscar-Arias2001) </br>
+🔗 [LinkedIn](https://www.linkedin.com/in/arias-oscar-8909b025b)
 
 ---
 
